@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Gamja+Flower&family=Madimi+One&family=Odor+Mean+Chey&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
 
 * {
     font-family: "Noto Sans KR", sans-serif;
+}
+
+h1, h2{
+    font-family: "Madimi One", sans-serif;
 }
 
 img{
