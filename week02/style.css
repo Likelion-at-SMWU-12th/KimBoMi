@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Gamja+Flower&family=Madimi+One&family=Odor+Mean+Chey&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
 
 * {
     font-family: "Noto Sans KR", sans-serif;
+}
+
+h1, h2{
+    font-family: "Madimi One", sans-serif;
 }
 
 img{
@@ -19,6 +24,7 @@ h2{
     margin-top: 40px;
     background-color: rgba(255, 177, 75, 0.675);
     padding: 5px 0px 5px 5px;
+    border-radius: 10px;
 }
 input{
     border: 1px solid #ccc;
@@ -26,6 +32,9 @@ input{
     border-radius: 20px;
     background-color: rgba(0,0,0,0);
     cursor: pointer;
+}
+.link{
+    text-align: center;
 }
 a{
     text-decoration-line: none;
@@ -51,4 +60,21 @@ a:hover{
     margin-left: auto;
     border: 1px solid #ebebeb;
     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+}
+.me{
+    list-style-type: circle;
+}
+.favorite{
+    list-style-image: url("./heart.png");
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: rgba(179, 172, 172, 0.834);
 }

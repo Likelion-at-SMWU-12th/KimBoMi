@@ -1,4 +1,4 @@
-alert("Welcome to bomi info page");
+confirm("Welcome to bomi info page🤗");
 const mainbox = document.getElementById("mainbox");
 function darkmode() {
     mainbox.style.backgroundColor = '#262626';
